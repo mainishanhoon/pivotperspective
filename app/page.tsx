@@ -105,10 +105,10 @@ export default function Hero() {
           <div className="justify-center gap-10 px-4 md:flex">
             <GuestCard
               name="Jayesh Ranjan"
-              designation="Chief Secretary"
-              description="Govt. of Telangana"
+              designation="House of Virality"
+              description="Founder & CEO"
               imageSrc="/Jayesh.webp"
-              link="https://www.linkedin.com/in/jayesh-ranjan-37415963/?originalSubdomain=in"
+              link="https://www.linkedin.com/in/jayesh-ranjan-singh/"
             />
             <GuestCard
               name="Prabal Bhatt"
@@ -121,7 +121,7 @@ export default function Hero() {
         </div>
       </section>
       <footer className="py-10">
-        <div className="items-center justify-around text-center sm:flex max-sm:space-y-4">
+        <div className="items-center justify-around text-center max-sm:space-y-4 sm:flex">
           <div className="flex justify-center">
             <Image
               alt="Adbrotisers"
