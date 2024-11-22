@@ -45,7 +45,7 @@ export default function Hero() {
                 </p>
               </div>
             </div>
-            <div className="flex w-screen items-center justify-center">
+            <div className="flex w-full items-center justify-center">
               <div className="mt-8 grid gap-5 sm:grid-cols-2">
                 <Link href="/form">
                   <Button size="lg" variant="ringHover" className="text-white">
