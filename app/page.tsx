@@ -101,6 +101,8 @@ export default function Hero() {
               imageSrc="/Samrat.webp"
               link="https://www.youtube.com/@SAMRATBHAI"
             />
+          </div>
+          <div className="justify-center gap-10 px-4 md:flex">
             <GuestCard
               name="Jayesh Ranjan"
               designation="Chief Secretary"
@@ -119,14 +121,16 @@ export default function Hero() {
         </div>
       </section>
       <footer className="py-10">
-        <div className="flex items-center justify-around">
-          <Image
-            alt="Adbrotisers"
-            src="/adbrotisers.webp"
-            width={200}
-            height={50}
-          />
-          <div className="text-[#acacacf7]">
+        <div className="items-center justify-around text-center sm:flex max-sm:space-y-4">
+          <div className="flex justify-center">
+            <Image
+              alt="Adbrotisers"
+              src="/adbrotisers.webp"
+              width={200}
+              height={50}
+            />
+          </div>
+          <div className="text-[#a8c797d3]">
             <p className="font-bold tracking-wider">
               Student Coordinator: Parth Sahu
             </p>
