@@ -118,7 +118,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <footer className="mt-[120px] h-16">
+      <footer className="py-10">
         <div className="flex items-center justify-around">
           <Image
             alt="Adbrotisers"
@@ -126,8 +126,11 @@ export default function Hero() {
             width={200}
             height={50}
           />
-          <div className="">
-            <p className="font-bold tracking-wide">
+          <div className="text-[#acacacf7]">
+            <p className="font-bold tracking-wider">
+              Student Coordinator: Parth Sahu
+            </p>
+            <p className="font-bold tracking-wider">
               Saransh Tiwari: 7869770020
             </p>
             <p className="font-bold tracking-wider">
