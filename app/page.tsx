@@ -79,36 +79,41 @@ export default function Hero() {
       >
         <div className="relative h-full w-full bg-grid-white/[0.03]">
           <p className="pt-10 text-center text-6xl font-bold">Our Guests</p>
-          <div id="cards" className="grid lg:grid-cols-2 xl:grid-cols-3 px-4">
+          <div id="cards" className="grid px-4 lg:grid-cols-2 xl:grid-cols-3">
             <GuestCard
               name="CrazyDeep"
               designation="Youtuber"
-              description="YouTube Channel"
+              description="Commentator"
               imageSrc="/Crazydeep.webp"
+              link="https://www.youtube.com/@crazydeep07"
+            />
+            <GuestCard
+              name="Vishwa Mohan"
+              designation="Aimerz"
+              description="Founder & CEO"
+              imageSrc="/Vishwa.webp"
+              link="https://www.linkedin.com/in/vishwa-mohan/?originalSubdomain=in"
             />
             <GuestCard
               name="Samrat Bhai"
               designation="Youtuber"
-              description="YouTube channel"
+              description="Commentator"
               imageSrc="/Samrat.webp"
-            />
-            <GuestCard
-              name="Vishwa Mohan Singh"
-              designation="Youtuber"
-              description="YouTube channel"
-              imageSrc="/Vishwa.webp"
+              link="https://www.youtube.com/@SAMRATBHAI"
             />
             <GuestCard
               name="Jayesh Ranjan"
-              designation="Youtuber"
-              description="YouTube channel"
+              designation="Chief Secretary"
+              description="Govt. of Telangana"
               imageSrc="/Jayesh.webp"
+              link="https://www.linkedin.com/in/jayesh-ranjan-37415963/?originalSubdomain=in"
             />
             <GuestCard
               name="Prabal Bhatt"
-              designation="Youtuber"
-              description="YouTube channel"
+              designation="Instagramer"
+              description="Content Creator"
               imageSrc="/Prabal.webp"
+              link="https://www.instagram.com/prabalbhatt16"
             />
           </div>
         </div>
