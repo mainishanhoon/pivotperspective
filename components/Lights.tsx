@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 export const Lights: React.FC<{ className?: React.ReactNode }> = ({
   className,
 }) => (
-  <div className={cn('h-screen w-full overflow-hidden', className)}>
+  <div className={cn('h-screen w-full overflow-hidden sm:h-dvh', className)}>
     <div
       className={'relative bottom-[-200px] h-full w-full'}
       style={{

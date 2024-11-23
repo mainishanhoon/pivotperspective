@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <>
       <header className="absolute top-0 h-[80px] bg-transparent"></header>
-      <section className="flex h-dvh w-screen items-center justify-center bg-gradient-to-b">
+      <section className="flex h-screen w-screen items-center justify-center bg-gradient-to-b sm:h-dvh">
         <div className="relative h-full w-full px-4 bg-grid-white/[0.03]">
           <div className="relative z-[1] flex h-full w-full animate-moveUp flex-col items-start justify-center sm:items-center">
             <div className="max-w-2xl text-center">
@@ -75,11 +75,16 @@ export default function Hero() {
 
       <section
         id="guests"
-        className="flex min-h-dvh w-screen items-center justify-center bg-gradient-to-b"
+        className="flex min-h-full w-screen items-center justify-center bg-gradient-to-b"
       >
         <div className="relative h-full w-full bg-grid-white/[0.03]">
-          <p className="pt-10 text-center text-6xl font-bold">Our Guests</p>
-          <div id="cards" className="grid px-4 lg:grid-cols-2 xl:grid-cols-3">
+          <p className="pt-10 text-center text-5xl font-bold md:text-6xl">
+            Our Guests
+          </p>
+          <div
+            id="cards"
+            className="flex flex-wrap justify-center px-4 sm:grid lg:grid-cols-2 xl:grid-cols-3"
+          >
             <GuestCard
               name="CrazyDeep"
               designation="Youtuber"
@@ -102,7 +107,7 @@ export default function Hero() {
               link="https://www.youtube.com/@SAMRATBHAI"
             />
           </div>
-          <div className="justify-center gap-10 px-4 md:flex">
+          <div className="flex w-screen flex-wrap justify-center md:gap-10">
             <GuestCard
               name="Jayesh Ranjan"
               designation="House of Virality"
